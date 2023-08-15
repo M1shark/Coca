@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Coco</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header header--main header--second">
+  <div class="container header__container">
+    <a href="#" class="header__logo">
+      <img src="img/logo.svg" alt="logo coca">
+    </a>
+    <div class="menu" data-menu>
+      <nav class="nav">
+        <ul class="nav__list list-reset">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="about.html" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="blog.html" class="nav__link">Blog</a>
+          </li>
+          <li class="nav__item">
+            <a href="pricing.html" class="nav__link">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="contact.html" class="menu__link">Contact Us →</a>
+    </div>
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+    <main class="main">
+      <section class="blog-hero">
+  <div class="container blog-hero__container">
+    <h1 class="blog-hero__title">
+      Activity & Updates
+    </h1>
+    <p class="blog-hero__descr">
+      Our biggest challenge is making sure we’re always designing and building products that will help you run your
+      business better.
+    </p>
+  </div>
+</section>
+      <section class="blog-slider">
+  <div class="container">
+    <h2 class="blog-slider__title visually-hidden">
+      blog slider
+    </h2>
+    <ul class="blog-slider__nav blog-nav list-reset">
+      <li class="blog-nav__item blog-nav__item--active">
+        <button class="blog-nav__btn blog-nav__btn--active btn-reset">
+          View all
+        </button>
+      </li>
+      <li class="blog-nav__item">
+        <button class="blog-nav__btn btn-reset">
+          Design
+        </button>
+      </li>
+      <li class="blog-nav__item">
+        <button class="blog-nav__btn btn-reset">
+          Articles
+        </button>
+      </li>
+      <li class="blog-nav__item">
+        <button class="blog-nav__btn btn-reset">
+          Product
+        </button>
+      </li>
+      <li class="blog-nav__item">
+        <button class="blog-nav__btn btn-reset">
+          Software Development
+        </button>
+      </li>
+      <li class="blog-nav__item">
+        <button class="blog-nav__btn  btn-reset">
+          Customer Success
+        </button>
+      </li>
+    </ul>
+    <div class="swiper blog-slider__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <article class="blog-article">
+            <img loading="lazy" src="img/blog-img-1.jpg" class="blog-article__img" width="515" height="428"
+              alt="blog img">
+            <div class="blog-article__content">
+              <div class="blog-article__info">
+                <span class="blog-article__data">
+                  Published in Insight Jan 30, 2021
+                </span>
+                <span class="blog-article__avtor">
+                  by: Albert Sans
+                </span>
+              </div>
+              <h3 class="blog-article__title">
+                Practice making User Flow
+              </h3>
+              <p class="blog-article__text">
+                In this article, we’ll cover how to create user flows
+              </p>
+            </div>
+          </article>
+        </div>
+        <div class="swiper-slide">
+          <article class="blog-article">
+            <img loading="lazy" src="img/blog-img-2.jpg" class="blog-article__img" width="515" height="428"
+              alt="blog img">
+            <div class="blog-article__content">
+              <div class="blog-article__info">
+                <span class="blog-article__data">
+                  Published in Insight Jan 30, 2021
+                </span>
+                <span class="blog-article__avtor">
+                  by: Albert Sans
+                </span>
+              </div>
+              <h3 class="blog-article__title">
+                Overview of the Design Principles
+              </h3>
+              <p class="blog-article__text">
+                What are Design Principles?.. To understand design principles, we first discuss the principles.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div class="swiper-slide">
+          <article class="blog-article">
+            <img loading="lazy" src="img/blog-img-3.jpg" class="blog-article__img" width="515" height="428"
+              alt="blog img">
+            <div class="blog-article__info">
+              <span class="blog-article__data">
+                Published in Insight Jan 30, 2021
+              </span>
+              <span class="blog-article__avtor">
+                by: Albert Sans
+              </span>
+            </div>
+            <div class="blog-article__content">
+              <h3 class="blog-article__title">
+                Using Grid in website design
+              </h3>
+              <p class="blog-article__text">
+                Andi: «What’s the grid like?» Toni: «Like below…»
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="articles">
+  <div class="container articles__container">
+    <h2 class="articles__title visually-hidden">
+      articles
+    </h2>
+    <div class="articles-content">
+      <div class="articles-content__col">
+        <article class="articles-content__body">
+          <img loading="lazy" src="img/articles-img-1.jpg" class="articles-content__img" alt="articles img">
+          <a href="#" class="articles-content__name">
+            How we perform long-running tasks using AWS services
+          </a>
+          <p class="articles-content__text">
+            Webflow is web design tool as well as a hosting platform and CMS all in one. While you are probably familiar
+            with all of these, they are usually entirely separate tools.
+          </p>
+        </article>
+        <article class="articles-content__body">
+          <img loading="lazy" src="img/articles-img-2.jpg" class="articles-content__img" alt="articles img">
+          <a href="#" class="articles-content__name">
+            How to ask when doing User Research
+          </a>
+          <p class="articles-content__text">
+            Bro, the story is that you want to make an application for buying and selling goods on the market. During
+            user research, what do you think you will ask people?
+          </p>
+        </article>
+      </div>
+      <div class="articles-content__col">
+        <article class="articles-content__body">
+          <img loading="lazy" src="img/articles-img-3.jpg" class="articles-content__img" alt="articles img">
+          <a href="#" class="articles-content__name">
+            Layout Exploration — Simple exercise but big effect
+          </a>
+          <p class=" articles-content__text">
+            Make alternatives or other options for the design we are making.
+            For example, we are creating a website design. Then there is the testimonial section.
+          </p>
+        </article>
+        <article class="articles-content__body">
+          <img loading="lazy" src="img/articles-img-4.jpg" class="articles-content__img" alt="articles img">
+          <a href="#" class="articles-content__name">
+            Webflow Break the Coding Barrier
+          </a>
+          <p class="articles-content__text">
+            Webflow is web design tool as well as a hosting platform and CMS all in one. While you are probably familiar
+            with all of these, they are usually entirely separate tools.
+          </p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+    </main>
+    <footer class="footer footer--main">
+  <div class="container">
+    <div class="footer__header">
+      <div class="footer__text">
+        <h2 class="footer__title footer__title--main">
+          Think beyond the wave
+        </h2>
+        <p class="footer__subtitle footer__subtitle--main">
+          Ask about Sans products, pricing, implementation, or anything else. Our highly trained reps are standing by,
+          ready to help
+        </p>
+      </div>
+      <button class="btn-reset footer__btn footer__btn--main">
+        Try for free
+      </button>
+    </div>
+    <div class="footer__center footer__center--main">
+      <div class="footer-info footer-second-info">
+        <a href="#" class="footer-info__logo">
+          <img src="img/logo.svg" alt="logo">
+        </a>
+        <p class="footer-info__text footer-info__text--main">
+          We built an elegant solution. Our team created a fully integrated sales and marketing solution for SMBs
+        </p>
+      </div>
+      <div class="footer-menu footer-second-menu">
+        <div class="footer-menu__col">
+          <h3 class="footer-menu__title footer-menu__title--main">Company</h3>
+          <ul class="footer-menu__list list-reset">
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                About
+              </a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                Pricing
+              </a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                Jobs
+              </a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                Blog
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-menu__col">
+          <h3 class="footer-menu__title footer-menu__title--main">Product</h3>
+          <ul class="footer-menu__list list-reset">
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                Sales Software
+              </a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                Marketplace
+              </a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                Terms & Conditions
+              </a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                Privacy Policy
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-menu__col">
+          <h3 class="footer-menu__title footer-menu__title--main">Discover</h3>
+          <ul class="footer-menu__list list-reset">
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                CRM Comparision
+              </a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                Partner Program
+              </a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                What is CRM
+              </a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                Resource
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-menu__col">
+          <h3 class="footer-menu__title footer-menu__title--main">Help Center</h3>
+          <ul class="footer-menu__list list-reset">
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                Community
+              </a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                Knowledge Base
+              </a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                Academy
+              </a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="#" class="footer-menu__link footer-menu__link--main">
+                Support
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-bottom__text footer-bottom__text--main">© Copyright 2023 All Rights Reserved</span>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
